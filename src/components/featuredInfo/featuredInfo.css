@@ -1,0 +1,44 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredItem{
+    flex: 1;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    -webkit-box-shadow: 0px 0px 12px -1px #000000; 
+     box-shadow: 0px 0px 12px -1px #000000;
+}
+
+    .featuredTitle {
+        font-size: 20px;
+    }
+
+    .featuredUsersContainer {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .featuredUsers {
+        font-size: 30px;    /*Users 숫자 크기 설정*/
+        font-weight: 600;
+    }
+
+    .featuredIcon {
+        font-size: 14px;
+        margin-left: 5px;
+        color: green;
+    }
+
+    .featuredSub {
+        font-size: 14px;
+        color: gray;
+    }
+    
+    

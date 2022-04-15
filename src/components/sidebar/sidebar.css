@@ -1,0 +1,50 @@
+.sidebar {
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: rgb(240, 239, 239);
+
+    position: sticky;
+    top: 50px;
+}
+
+    .sidebarWrapper {
+        padding: 20px;
+        color: #555;
+    }
+
+    .sidebarMenu{
+        margin-bottom: 2rem;
+    }
+
+    .sidebarTitle{
+        font-size: 0.9rem;
+        color: rgb(197, 197, 197);
+    }
+
+    .sidebarList{
+        list-style: none;
+        padding: 0.5rem;
+    }
+
+    .sidebarListItem {
+        padding: 5px;           /*Padding을 사용해 다른 item 사이에 여백을 줌*/
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .sidebarListItem.active,
+    .sidebarListItem.hover {
+        background-color: rgb(212, 209, 235);
+    }
+
+    .sidebarIcon{
+        margin-right: 10px;  /*Margin 을 사용해 다른 item 사이에 여백을 줌*/
+        font-size: 20px !important;
+    }
+
+.others {
+    flex: 4;
+    background-color: wheat;
+}
