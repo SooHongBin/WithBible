@@ -23,7 +23,7 @@ export default function Topbar() {
                 <div className="topbarIconContainer">          {/*topbar 톱니바퀴 모양 Icon*/} 
                 <SettingsIcon />       
                 <img
-                  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/47448086-9b02-4313-9a45-39350510a652/bible-app-logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220414T083439Z&X-Amz-Expires=86400&X-Amz-Signature=88f3a734df6bc1c1f505e25f22820e32fcddde78f509fffea49af10df140291d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22bible-app-logo.png%22&x-id=GetObject"
+                  src="https://user-images.githubusercontent.com/49392673/171630282-74fafc90-efd8-4a28-9489-4e63b307ea05.jpg"
                   alt=""
                   className="topAvatar"
                 />          {/*프로필사진 표시*/}

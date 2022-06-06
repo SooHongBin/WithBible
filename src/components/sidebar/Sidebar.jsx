@@ -17,59 +17,59 @@ export default function sidebar() {
     <div className="sidebar">
         <div className="sidebarWrapper">
             <div className="sidebarMenu">                       {/*사이드바 메뉴 */}
-                <h3 className="sidebarTitle">Dashboard</h3>     {/*Dashboard 타이틀 출력*/}
+                <h3 className="sidebarTitle">대쉬보드</h3>      {/*대쉬보드 타이틀 출력*/}
                 <u1 className="sidebarList">                    {/*사이드바 리스트 불러오기*/}
                     <li className="sidebarListItem active">     {/*사이드바 리스트 출력 및 색상입히기*/}
                      <HomeWorkIcon className="sidebarIcon"/>    {/*사이드바에 Home 아이콘 및 메뉴 출력*/}
-                    Home
+                    홈
                     </li>
                     <li className="sidebarListItem">            {/*사이드바 리스트 출력*/}
                     <TrendingUpIcon className="sidebarIcon"/>   {/*사이드바에 Analytics 메뉴 출력*/}
-                     Analytics
+                    통계
                     </li>
                     <li className="sidebarListItem active">     {/*사이드바 리스트 출력 및 색상입히기*/}
                      <AddIcon className="sidebarIcon"/>         {/*사이드바에 AddQuiz 아이콘 및 메뉴 출력*/}
-                    Add Quiz
+                    퀴즈추가
                     </li>
                     <li className="sidebarListItem">            {/*사이드바 리스트 출력*/}
                     <RemoveIcon className="sidebarIcon"/>       {/*사이드바에 Remove Quiz 아이콘 및 메뉴 출력*/}
-                     Remove Quiz
+                     퀴즈삭제
                     </li>
                 </u1>
           
            </div>
            <div className="sidebarMenu">                         {/*사이드바 메뉴 */}
-                <h3 className="sidebarTitle">Quick</h3>          {/*Quick 타이틀 출력*/}            
+                <h3 className="sidebarTitle">유저메뉴</h3>       {/*유저메뉴 타이틀 출력*/}            
                 <u1 className="sidebarList">                     {/*사이드바 리스트 불러오기*/}
                     <li className="sidebarListItem active">      {/*사이드바 리스트 출력 및 색상입히기*/}   
                      <PersonOutlineIcon className="sidebarIcon"/>   {/*사이드바에 Users 아이콘 및 메뉴 출력*/}
-                    Users
+                    유저관리
                     </li>
                     <li className="sidebarListItem">            {/*사이드바 리스트 출력*/}
                      <BarChartIcon className="sidebarIcon"/>    {/*사이드바에 Reports 아이콘 및 메뉴 출력*/}
-                    Reports
+                    유저 레포트
                     </li>
                     <li className="sidebarListItem active">     {/*사이드바 리스트 출력 및 색상입히기*/}
                      <AddAPhotoIcon className="sidebarIcon"/>   {/*사이드바에 Add Photos 아이콘 및 메뉴 출력*/}
-                    Add Photos
+                    사진 추가
                     </li>
                 </u1>
            </div>
 
            <div className="sidebarMenu">                          {/*사이드바 메뉴 */}
-                <h3 className="sidebarTitle">notification</h3>    {/*notification 타이틀 출력*/}  
+                <h3 className="sidebarTitle">알림</h3>            {/*알림 타이틀 출력*/}  
                 <u1 className="sidebarList">                      {/*사이드바 리스트 불러오기*/}  
                     <li className="sidebarListItem active">       {/*사이드바 리스트 출력 및 색상입히기*/}
                      <MailOutlineIcon className="sidebarIcon"/>   {/*사이드바에 Mail 아이콘 및 메뉴 출력*/}
-                    Mail
+                    메일
                     </li>
                     <li className="sidebarListItem">              {/*사이드바 리스트 출력 */}
                     <FeedbackIcon className="sidebarIcon"/>       {/*사이드바에 Feedback 아이콘 및 메뉴 출력*/}
-                     Feedback
+                    피드백
                     </li>
                     <li className="sidebarListItem active">       {/*사이드바 리스트 출력 및 색상입히기*/}
                      <ChatIcon className="sidebarIcon"/>          {/*사이드바에 Messages 아이콘 및 메뉴 출력*/}
-                    Messages
+                    메시지
                     </li>
                 </u1>
            </div>

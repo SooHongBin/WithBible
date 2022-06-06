@@ -7,13 +7,13 @@ export default function WidgetLg() {
     }      
     return ( 
     <div className="widgetLg">
-        <h3 className="widgetLgTitle">Latest transactions</h3>       {/*헤더 이름*/}
+        <h3 className="widgetLgTitle">마지막으로 접속한 퀴즈 유저</h3>       {/*헤더 이름*/}
     <table className="widgetLgTable">
         <tr className="widgetLgTr">
-            <th className="widgetLgTh">Customer</th>        
-            <th className="widgetLgTh">Date</th>
-            <th className="widgetLgTh">Age</th>
-            <th className="widgetLgTh">Status</th> 
+            <th className="widgetLgTh">유저</th>        
+            <th className="widgetLgTh">날짜</th>
+            <th className="widgetLgTh">나이</th>
+            <th className="widgetLgTh">상태</th> 
         </tr>    
         <tr className="widgetLgTr">
             <td className="widgetLgUser">
@@ -24,7 +24,7 @@ export default function WidgetLg() {
                   />
                 <span className="widgetLgName">Jrong</span>
             </td>
-            <td className="widgetLgDate">20 April 2022</td>
+            <td className="widgetLgDate">2022/4/20</td>
             <td className="widgetLgAmount">11</td>
             <td className="widgetLgStatus">
                 <Button type="Approved" /> {/* type에 대한 버튼명 넣어주기*/}
@@ -37,10 +37,10 @@ export default function WidgetLg() {
                     alt = ""
                     className="widgetLgImg"
                     />
-                <span className="widgetLgName">Jrong</span>
+                <span className="widgetLgName">Soohong</span>
             </td>
-            <td className="widgetLgDate">20 April 2022</td>
-            <td className="widgetLgAmount">11</td>
+            <td className="widgetLgDate">2022/4/21</td>
+            <td className="widgetLgAmount">26</td>
             <td className="widgetLgStatus">
                 <Button type="Declined" />
             </td>
@@ -52,10 +52,10 @@ export default function WidgetLg() {
                     alt = ""
                     className="widgetLgImg"
                     />
-                <span className="widgetLgName">Jrong</span>
+                <span className="widgetLgName">Yongki</span>
             </td>
-            <td className="widgetLgDate">20 April 2022</td>
-            <td className="widgetLgAmount">11</td>
+            <td className="widgetLgDate">2022/4/22</td>
+            <td className="widgetLgAmount">26</td>
             <td className="widgetLgStatus">
                 <Button type="Panding" />
             </td>
