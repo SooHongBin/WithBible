@@ -1,20 +1,23 @@
 import React from 'react'
 import './user.css'
-import{
+import {
     PermIdentity,
     CalendarToday,
     PhoneIphone,
     MailOutline,
     LocationOn,
-    Publish
+    Publish,
 }   from '@mui/icons-material'
+import { Link } from 'react-router-dom'
 
 export default function User() {
     return(
      <div className="user">
          <div className="userTitleContainer">
             <h1 className="userTitle">유저 관리</h1>
+            <Link to="/newUser">
             <button className="userAddButton">만들기</button>
+            </Link>
         </div>  
         <div className="userContainer"> 
             <div className="userShow"> 
@@ -30,40 +33,33 @@ export default function User() {
                 </div>
              </div>
              <div className="userShowBottom">
+             </div> 
                 <span className="userShowTitle">유저 정보</span>
                 <div className="usershowInfo">
                     <PermIdentity className="userShowIcon" />
                     <span className="userShowInfoTitle">soohong97</span>    
-                </div>
-            </div>    
+                </div>   
                 <div className="userShowInfo">
                     <CalendarToday className="userShowIcon" />     
                     <span className="usershowInfoTitle">1997.09.11</span>
                 </div>    
                 <span className="userShowTitle">유저 세부 정보</span>
-                <div className="usershowInfo">
-                    <PhoneIphone className="userShowIcon" />    
-                    <span className="userShowInfoTitle">+82 1234 5678</span>
-                </div>
-                <div className="userShowInfo">
+                    <div className="userShowInfo">
                     <MailOutline className="usershowIcon" />
                     <span className="userShowInfoTitle">soohong970911@gmail.com</span>
                 </div>
-                <div className="userShowInfo">
-                    <LocationOn className="usershowIcon" />
-                    <span className="userShowInfoTitle">대한민국 서울 </span>
-                 </div>
                 </div>    
             <div className="userUpdate"> 
                 <span className="userUpdateTitle">Edit</span>
                 <form className="userUpdateForm">
                     <div className="userUpdateLeft">
+                        <div className="userUpdateItem">
                         <label>유저 닉네임</label>
                         <input
                             type="text"
                             placeholder="soohong97"
                             className="userUpdateInput"
-                        />
+                        />                        
                     </div>
                     <div className="userUpdateItem">
                         <label>유저 이름</label>
@@ -81,23 +77,7 @@ export default function User() {
                             className="userUpdateInput"
                         />
                     </div>
-                    <div className="userUpdateItem">
-                        <label>핸드폰 번호</label>
-                        <input
-                            type="text"
-                            placeholder="+82 123 456"
-                            className="userUpdateInput"
-                        />
-                    </div>
-                    <div className="userUpdateItem">
-                        <label>주소</label>
-                        <input
-                            type="text"
-                            placeholder="대한민국 서울"
-                            className="userUpdateInput"
-                        />
-                    </div>
-                    <div className="userUpdateRight">
+                        <div className="userUpdateRight">
                         <div className="userUpdateUpload">                          
                             <img
                                 src="https://user-images.githubusercontent.com/49392673/171630282-74fafc90-efd8-4a28-9489-4e63b307ea05.jpg"
@@ -105,14 +85,16 @@ export default function User() {
                                 className="userUpdateImg"
                             />
                             <label htmlfor="file">
-                                <Publish />
+                                <Publish className="userUpdateIcon" />
                             </label>
-                            <input type="file" id="file" style={{ display: 'none' }}/>
-                        </div> 
-                    </div>
+                            <input type="file" id="file"  />
+                            </div> 
+                            <button className="userUpdateButton">업로드</button>
+                        </div>
+                     </div>
                 </form>
-            </div>
+            </div>  
          </div>
-    </div>    
+    </div>  
     )
 }  

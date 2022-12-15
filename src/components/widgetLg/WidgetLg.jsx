@@ -33,7 +33,7 @@ export default function WidgetLg() {
           <tr className="widgetLgTr">
             <td className="widgetLgUser">
                 <img  
-                    src = "https://static.smalljoys.me/2021/03/5145246_a452aff9b7ec4a598ef03ddb7740f9cb_1616578548.JPG"
+                    src = "https://user-images.githubusercontent.com/49392673/171630282-74fafc90-efd8-4a28-9489-4e63b307ea05.jpg"
                     alt = ""
                     className="widgetLgImg"
                     />
@@ -48,7 +48,7 @@ export default function WidgetLg() {
           <tr className="widgetLgTr">
             <td className="widgetLgUser">
                 <img  
-                    src = "https://static.smalljoys.me/2021/03/5145246_a452aff9b7ec4a598ef03ddb7740f9cb_1616578548.JPG"
+                    src = "https://contents.creators.mypetlife.co.kr/content/uploads/2020/06/20005851/1838_3993_3451.png"
                     alt = ""
                     className="widgetLgImg"
                     />

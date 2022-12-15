@@ -1,0 +1,9 @@
+.chartList {
+    flex: 4;
+}
+
+.chartTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -3,17 +3,21 @@ import './topbar.css'
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';  /*종모양 아이콘 */
 import LanguageIcon from '@mui/icons-material/Language';                    /*지구모양 아이콘 */
 import SettingsIcon from '@mui/icons-material/Settings';                    /*톱니바퀴 아이콘 */
+import { Link } from 'react-router-dom'
 
 export default function Topbar() {
     return(
+      
         <div className="topbar">
           <div className="topbarWrapper">
+          <Link to="//localhost:3000/" className='link'>
             <div className= "topLeft">
-                <span className="logo">위드바이블</span>       {/*왼쪽 상단 Topbar 제목 */}
-              </div>          
+                <span className="logo">위드 바이블</span>       {/*왼쪽 상단 Topbar 제목 */}
+              </div>            
+          </Link>    
               <div className="topRight">
                 <div className="topbarIconContainer">          {/* topbar 종모양 Icon*/}
-                <NotificationsNoneIcon />
+                <NotificationsNoneIcon /> 
                 <span className="topIconBadge">9+</span>       {/*알림표시*/}
                 </div>
                 <div className="topbarIconContainer">          {/*topbar 지구모양 Icon*/}

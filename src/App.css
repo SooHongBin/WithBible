@@ -1,3 +1,8 @@
 .container {
   display: flex;  /*sidebar와 otherpages영역 분리*/
 }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

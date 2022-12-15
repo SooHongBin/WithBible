@@ -29,7 +29,6 @@
     color: #555;
 }
 
-
 .topIconBadge {
     position: absolute;
     top: -5px;
@@ -47,14 +46,17 @@
     font-size: 13px;
     color: white; 
 }
+
     .topRight {
         display: flex;
         align-items: center;
     }
 
+    
     .topAvatar {
         height: 40px;
         width: 40px;
         border-radius: 50%;
         cursor: pointer;
     }
+    
